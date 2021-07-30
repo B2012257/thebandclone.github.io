@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="assets/main.js"></script>
+    <title>W3 The Band Clone</title>
+</head>
+<body>
+    <div id="main">
+        <ul class="main__header font-SegoeGui">
+            <li><a href="#main">HOME</a></li>
+            <li><a href="#main__band">BAND</a></li>
+            <li><a href="#main__tour">TOUR</a></li>
+            <li><a href="#main__contact">CONTACT</a></li>
+            <li><a href="#map">MAP</a></li>
+
+            <li class="more">
+                <a href="#" >MORE </a> <i class="fas fa-sort-down"></i>
+
+                
+                <ul class="subnav">
+                    <li><a href="">Merchandise</a></li>
+                    <li><a href="">Extras</a></li>
+                    <li><a href="">Media</a></li>
+                </ul>
+            </li>
+            <i class="fas fa-search"></i>
+        </ul>
+        <div id="main__slider">
+            <img class="main__slider__img" src="/assets/Slide/slider.jpg" alt="">
+            <p class="main__slider__status">
+                Los Angeles <br />We had the best time playing at Venice Beach!</p>
+        </div>
+
+        <div id="main__band">
+            <div class="main__band__content pdtop">
+                <h2 class="header-content">THE BAND</h2>
+                <p class="main__band__content__title status-content">We love music</p>
+                <p class="main__band__content__para">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="main__band__content__member__list">
+                    <div class="member-item">
+                        <p>Name</p>
+                        <img src="/assets/Content/bandmember.jpg" alt="">
+                    </div>
+                    <div class="member-item">
+                        <p>Name</p>
+                        <img src="/assets/Content/bandmember.jpg" alt="">
+                    </div>
+                    <div class="member-item">
+                        <p>Name</p>
+                        <img src="/assets/Content/bandmember.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main__tour" style="background-color: #000;">
+            <div class="main__band__content pdtop">
+                <div class="tour-title">
+                    <h3 class="header-content white-text">TOUR DATES</h3>
+                    <P class="status-content white-text">Remember to book your tickets</P>
+                </div>
+
+                <div class="tour-ticket">
+                    <ul class="ticket-slot">
+                        <li class="">September: <span class="sold-out">Sold Out</span></li>
+                        <li class="">October: <span class="have-slot">2 Slot</span></li>
+                        <li class="">June: <span class="sold-out">Sold Out</span></li>
+                    </ul>
+                </div>
+
+                <div class="ticket">
+                    <div class="ticket-item ">
+                        <img src="./assets/Tour Place/newyork.jpg" alt="">
+                        <div class="ticket-content font-san">
+                            <p class="place">New York</p>
+                            <p class="date">Fri 27 Nov 2016</p>
+                            <p class="word">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="btn">Buy Ticket</button>
+                        </div>
+                    </div>
+
+                    <div class="ticket-item">
+                        <img src="./assets/Tour Place/paris.jpg" alt="">
+                        <div class="ticket-content font-san">
+                            <p class="place">Paris</p>
+                            <p class="date">Sat 28 Nov 2016</p>
+                            <p class="word">Praesen tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="btn">Buy Ticket</button>
+                        </div>
+                    </div>
+
+                    <div class="ticket-item font-san">
+                        <img src="./assets/Tour Place/sanfrancisco.jpg" alt="">
+                        <div class="ticket-content ">
+                            <p class="place">San Francisco</p>
+                            <p class="date">Sun 29 Nov 2016
+                            </p>
+                            <p class="word">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="btn font-san">Buy Ticket</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="main__contact" class="main__band__content pdtop">
+            <div class="contact-title">
+                <h3 class="header-content">CONTACT</h3>
+                <P class="status-content">Fan? Drop a note!</P>
+            </div>
+            <div class="form">
+                <div class="address font-san">
+                    <i class="fas fa-map-marker-alt"></i><span class="">           Chicago, US</span> <br />
+                    <i class="fas fa-headphones-alt"></i><span class="">     Phone: +00 151515</span> <br />
+                    <i class="fas fa-envelope"></i><span class="">     Email: mail@mail.com</span>
+                </div>
+
+                <div class="fan-idea">
+                    <form action="">
+                        <input class="form-idea1" required type="name" placeholder="Name">
+                        <input class="form-idea2" required type="email" placeholder="Email Address">
+                        <input class="form-idea3" required type="text" placeholder="Say something to our!">
+                        <input type="submit" value="SEND" class="send-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="map">
+            <img src="./assets/Map/map.jpg" style="filter: grayscale(50%);
+            width: 100%;" alt="">
+        </div>
+        <div id="footer">
+            <div class="icon-logo">
+                <i class="fab fa-facebook-square" ></i>
+                <i class="fab fa-github-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-square"></i>
+                <i class="fab fa-twitch"></i>
+                <i class="fab fa-youtube-square"></i>
+            </div>
+            <P class="made">Design & powered by <a href="https://www.w3schools.com/">w3schools.com</a></P>
+
+            <p class="made">Made by ThaiPham.</P>
+        </div>
+    </div>
+
+</body>
+</html>
